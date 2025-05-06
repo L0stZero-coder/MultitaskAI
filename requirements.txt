@@ -1,0 +1,11 @@
+# Unity Engine version
+Unity >=2021.3
+
+# Twitch chat integration (install via NuGet or manually include DLLs)
+TwitchLib.Client >=3.2.1
+
+# Windows voice recognition (built-in to .NET Framework)
+System.Speech.Recognition  # Windows only, requires .NET Framework
+
+# Runtime requirement
+.NET Framework 4.7.2 or higher
