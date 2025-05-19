@@ -1,41 +1,74 @@
-# MultitaskAI
-MultitaskAI_Unity is an experimental Unity project that simulates an intelligent AI system capable of multitasking in a game environment. Inspired by VTuber AI models like Neuro-sama, this project combines real-time Twitch chat interaction, voice command recognition, and game control logic into a single system.
+# 🤖 MultitaskAI_Unity
 
-> Features
-Voice-to-Text Commands — Uses Windows' speech recognition to interpret live microphone input.
+**MultitaskAI_Unity** is an experimental Unity-based project designed to simulate an intelligent, multitasking AI system in a live game environment. Inspired by VTuber AI models like *Neuro-sama*, this project integrates **real-time Twitch chat interaction**, **voice command recognition**, and **in-game control logic** into a cohesive framework suitable for interactive entertainment or AI research.
 
-Twitch Chat Integration — Connects to Twitch via TwitchLib.Client to receive and respond to live chat messages.
+---
 
-In-Game Actions — AI translates input into Unity game actions like jumping or moving the player.
+## 🚀 Features
 
-Modular AI Processor — Handles all incoming inputs (chat/voice) and determines appropriate game responses.
+- 🗣️ **Voice-to-Text Commands**  
+  Converts live microphone input into actionable commands using Windows' built-in `System.Speech.Recognition`.
 
--> Use Cases
-Building AI-driven VTubers or streamer assistants
+- 💬 **Twitch Chat Integration**  
+  Connects via `TwitchLib.Client` to interpret and respond to live messages from Twitch viewers.
 
-Research and prototyping for real-time input fusion
+- 🎮 **In-Game Action Control**  
+  Maps chat and voice inputs to Unity-based player actions (e.g., jump, move).
 
-Creating interactive NPCs or avatars in games
+- 🧠 **Modular AI Processor**  
+  Central AI controller processes voice/chat inputs and triggers appropriate behaviors in the game.
 
--> Technologies Used
-Unity 2021.3+
+---
 
-C# with .NET Framework (Mono backend)
+## 🧠 Use Cases
 
-TwitchLib.Client (for Twitch chat)
+- Developing **AI-powered VTuber assistants** or avatars  
+- Prototyping **real-time multimodal AI systems**  
+- Creating **interactive NPCs or companion bots** in Unity-based games  
+- Academic **research in input fusion and cognitive simulation**
 
-System.Speech.Recognition (Windows-only voice input)
+---
 
--> What's Included
-Modular C# scripts for each subsystem (Chat, Voice, AI Logic, Game Control)
+## 🛠️ Technologies Used
 
-Unity scene template
+- **Unity 2021.3+**  
+- **C# with .NET Framework (Mono backend)**  
+- **TwitchLib.Client** — Twitch chat connectivity  
+- **System.Speech.Recognition** — Windows-only speech-to-text functionality  
 
-Example GameObject integration
+---
 
--> Demo Actions
-Say or type "jump" – makes the player jump
+## 📦 What's Included
 
-Say or type "move right" – moves the player to the right
+- Fully modular C# scripts for:
+  - Twitch chat handler
+  - Voice command recognition
+  - Central AI decision logic
+  - Game control execution
 
-Any other input gets a generic AI fallback response
+- Example Unity scene with pre-configured setup  
+- GameObjects integrated with input response behavior  
+
+---
+
+## 🕹️ Demo Commands
+
+You can interact with the AI using either **Twitch chat** or **voice**:
+
+| Input              | Effect                    |
+|-------------------|---------------------------|
+| `"jump"`          | Makes the player character jump |
+| `"move right"`    | Moves the character to the right |
+| _Other inputs_    | Triggers a generic AI fallback response |
+
+---
+
+## 📄 License
+
+This project is open for experimentation and educational use. A formal license may be added later.
+
+---
+
+## 🤝 Contributions
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests for new features or improvements.
